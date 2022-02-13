@@ -15,7 +15,15 @@ p {
     font-family: cursive;
     background-color: green;
     padding: 1rem;
+
 }
+
+p:hover {
+    color: yellow;
+    transition: ease-in-out 6s;
+}
+
+
 
 .c {
     display: flex;
